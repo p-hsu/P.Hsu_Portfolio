@@ -101,6 +101,7 @@ main {
 .about {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     margin-bottom: 20px;
     padding: 30px;
     border: 2px solid var(--lblue);
@@ -119,7 +120,7 @@ main {
     width: 100%;
     max-width: 250px;
     height: auto;
-    margin: auto;
+    margin: 10px;
 }
 
 .about h2 {
@@ -132,6 +133,7 @@ main {
 .p-wrapper {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     flex: 0 0 40%;
     font-size: 18px;
 }
@@ -282,3 +284,27 @@ main a:active {
 }
 
 /* media query requirements for max-width 700px */
+@media screen and (max-width: 900px) {
+    header h1 {
+        width: 100%;
+        font-size: 8vw;
+    }
+
+    header h2 {
+        width: 85%;
+        font-size: 5vw;
+    }
+
+    header h3 {
+        width: 85%;
+        font-size: 3.8vw;
+    }
+
+    .about h2 {
+        flex: 0 0 100%
+    }
+
+    .p-wrapper {
+        flex: 0 0 100%
+    }
+}
