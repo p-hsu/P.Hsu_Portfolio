@@ -36,7 +36,7 @@ This portfolio contains HTML and CSS built from scratch to display the progressi
 
 Please use the following link to deploy live URL of this project:
 
-[Horiseon Social Solutions Services , Inc.](https://p-hsu.github.io/Horiseon_code_refractory_project/)
+[Pamela Hsu | Web Developement * Full-Stack](https://p-hsu.github.io/P.Hsu_Portfolio/)
 
 ## Credit
 
