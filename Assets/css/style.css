@@ -27,6 +27,7 @@ body {
     padding: 0;
 }
 
+/* header and nav both in div wrapper, considered items of container class="hero-banner" */
 header {
     display: flex;
     flex-wrap: wrap;
@@ -68,6 +69,7 @@ nav {
     margin-bottom: 10px;
 }
 
+/* use color palette for link effects */
 nav a:link {
     color: var(--bg);
 }
@@ -94,14 +96,17 @@ main {
     background-color: var(--dblue);
 }
 
+/* this container will have two items for flex-box */
 .about {
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 20px;
     padding: 30px;
-    border: 2px solid var(--blue);
+    border: 2px solid var(--lblue);
+    font-family: "Jost", "serif", "sans-serif";
 }
 
+/* wrap img to allow proper proportion change while maintaining resolution */
 .about .img-wrap {
     width: 100%;
     margin: auto;
@@ -119,12 +124,15 @@ main {
 .about h2 {
     flex: 0 0 10%;
     margin-bottom: 10px;
+    font-size: 25px;
 }
 
+/* flex-item 2 w/in container .about and also is flex-box container for h2 and p elements */
 .p-wrapper {
     display: flex;
     flex-direction: column;
     flex: 0 0 40%;
+    font-size: 18px;
 }
 
 .p-wrapper a:link {
@@ -143,6 +151,7 @@ main {
     color:var(--yellow);
 }
 
+/* this container will have two items for flex-box */
 .contact {
     display: flex;
     align-items: stretch;
@@ -153,13 +162,16 @@ main {
     padding-left: 15px;
     padding-top: 5px;
     padding-bottom: 5px;
-    border: 2px solid var(--blue);
+    border: 2px solid var(--lblue);
+    font-family: "Jost", "serif", "sans-serif";
 }
 
 .contact h2 {
     flex: 0 0 10%;
+    font-size: 22px;
 }
 
+/* flex-item two within container .contact and also is flex-box container for a elements  */
 .contact div {
     display: flex;
     align-items: center;
@@ -168,6 +180,7 @@ main {
     font-size: 20px;
 }
 
+/* use color palette for link effects */
 .contact a:link {
     color: var(--yellow);
 }
@@ -183,3 +196,5 @@ main {
 .contact a:active {
     color: var(--yellow);
 }
+
+/* this container will have two items for flex-box */
