@@ -5,42 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pamela Hsu | Web Developement * Full-Stack </title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jost">
 </head>
 <body>
     <!-- Hero banner -->
-    <section class="hero-banner">
+    <div class="hero-banner">
         <!-- Top header and nav bar -->
         <header>
             <h1>Hi, I'm Pamela Hsu</h1>
             <h2>I am a full-stack programming student and this is my work-in-progress portfolio.</h2>
             <h3>Check out the links below to navigate this page.</h3>
-                <nav>
-                <a href="#about">About Me</a>
-                <a href="#projects">Projects</a>
-                <a href="#contact">Contact</a>
-                <a href="resume.html">Resume</a>
-                </nav>
         </header>
-    </section>
+    </div>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a href="resume.html">Resume</a>
+    </nav>
 
     <main>
         <!-- About me section -->
-        <section id="about">
-            <img src="./assets/images/profile-img.jpg" alt="profile photo">
-            <h2>Who am I?</h2>
-            <p>
-                Feeling a nagging need for a career change, I decided to pivot my trajectory from the veterinary field (as a technician) to the web developer field. I am currently enrolled in a full-stack bootcamp program through <a href="https://www.trilogyed.com/" target="_blank">Triology Education Services</a> at <a href="https://bootcamp.tlcenter.wustl.edu/" target="_blank">Washington University</a> here in Saint Louis, Missouri.
-            </p>    
-            <p>    
-                I am enjoying learning about this new world of programming and all the opportunities it has to offer. Seeing the interactive world through this different persepctive brings about entirely new levels of thinking and creativity. I look forward to updating this portfolio page as my adventure continues to progress.
-            </p>
-            <p>
-                When I am not in school or working, I enjoy spending time with my partner and cat, rock climbing, cooking and baking, and tyring to relearn Chinese.
-            </p>
+        <section class="about">
+            <div class="image-wrap">
+                <img class="prof-photo" src="./assets/images/profile-photo.png" alt="profile photo">
+            </div>
+            <div class="p-wrapper">
+                <h2>Who am I?</h2>
+                <p>
+                    Feeling a nagging need for a career change, I decided to pivot my trajectory from the veterinary field (as a technician) to the web developer field. I am currently enrolled in a full-stack bootcamp program through <a href="https://www.trilogyed.com/" target="_blank">Triology Education Services</a> at <a href="https://bootcamp.tlcenter.wustl.edu/" target="_blank">Washington University</a> here in Saint Louis, Missouri.
+                </p>    
+                <p>    
+                    I am enjoying learning about this new world of programming and all the opportunities it has to offer. Seeing the interactive world through this different persepctive brings about entirely new levels of thinking and creativity. I look forward to updating this portfolio page as my adventure continues to progress.
+                </p>
+                <p>
+                    When I am not in school or working, I enjoy spending time with my partner and cat, rock climbing, cooking and baking, and tyring to relearn Chinese.
+                </p>
+            </div>
         </section>
 
         <!-- Contact section -->
-        <section id="contact">
+        <section class="contact">
             <h2>Get in touch</h2>
             <a href="mailto:pamela.jk.hsu@gmail.com">Gmail</a>
             <a href="https://github.com/p-hsu" target="_blank">GitHub</a>
@@ -48,7 +55,7 @@
         </section>
 
         <!-- Projects section -->
-        <section id="projects">
+        <section clss="projects">
             <h2>Projects</h2>
             <div class="grid layout">
 
