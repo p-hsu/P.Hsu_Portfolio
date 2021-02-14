@@ -272,13 +272,13 @@ main a:active {
 }
 
 .proj-3 {
-    background-image: url(../images/purple-weave.jpg);
+    background-image: url("../images/purple-weave.jpg");
     background-size: cover;
     flex: 3 0 auto;
 }
 
 .proj-4 {
-    background-image: url(../images/green-geo.jpg);
+    background-image: url("../images/glare.jpg");
     background-size: cover;
     flex: 3 0 auto;
 }
