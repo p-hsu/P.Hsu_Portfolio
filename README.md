@@ -26,13 +26,12 @@ This portfolio contains HTML and CSS built from scratch to display the progressi
 
 ## Screenshot
 
-*Note: this page contains some links that have yield not results*
-
 ![Portfolio screenshot: full page](./Assets/images/full-page-screenshot.png)
 
 ![Portfolio screenshot: `@media screen and (max-width: 900px)`](./Assets/images/mediaquery-screenshot.png)
 
 ## Deployment
+*Note: this page contains some links that yield no webpage.*
 
 Please use the following link to deploy live URL of this project:
 
@@ -41,4 +40,4 @@ Please use the following link to deploy live URL of this project:
 ## Credit
 
 * Original HTML and CSS code referenced are owned by © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand
-* images used are free generic images found using Google
+* Project link background images used are free generic images found using Google
