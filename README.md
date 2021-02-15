@@ -26,7 +26,11 @@ This portfolio contains HTML and CSS built from scratch to display the progressi
 
 ## Screenshot
 
+**Portfolio screenshot: full page**
+
 ![Portfolio screenshot: full page](./Assets/images/full-page-screenshot.png)
+
+**Portfolio screenshot: `@media screen and (max-width: 900px)`**
 
 ![Portfolio screenshot: `@media screen and (max-width: 900px)`](./Assets/images/mediaquery-screenshot.png)
 
