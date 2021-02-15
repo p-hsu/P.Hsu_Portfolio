@@ -23,7 +23,7 @@ body {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    transition-duration: 3s;
+    transition-duration: 2s;
     margin: 0;
     padding: 0;
 }
@@ -186,7 +186,7 @@ main a:active {
 
 /* use color palette for link effects */
 .contact a:link {
-    color: var(--yellow);
+    color: var(--blue);
 }
 
 .contact a:visited {
@@ -244,6 +244,7 @@ main a:active {
     padding-left: 10px;
     padding-bottom: 10px;
     flex-wrap: wrap;
+    transition-duration: 2s;
 }
 
 .grid-layout h3 {
