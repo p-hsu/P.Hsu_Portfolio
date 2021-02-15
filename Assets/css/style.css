@@ -5,14 +5,14 @@
     --dblue: rgb(6, 27, 43);
     --blue: rgb(26, 101, 172);
     --lblue:rgb(99, 155, 207);
-    --grey:rgb(59, 70, 104)
+    --grey:rgb(59, 70, 104);
 }
 
 
 body {
     margin: 0;
     padding: 0;
-    font-family: "Ubuntu", "serif", "sans-serif";
+    font-family: "Ubuntu", serif, sans-serif;
     line-height: 1.5;
     background-color: var(--bg);
 }
@@ -45,7 +45,7 @@ header h1 {
 }
 
 header h2 {
-    font-family: "Jost", "serif", "sans-serif";
+    font-family: "Jost", serif, sans-serif;
     font-size: 18px;
     margin-top: 0px;
     padding: 0px;
@@ -53,7 +53,7 @@ header h2 {
 }
 
 header h3 {
-    font-family: "Jost", "serif", "sans-serif";
+    font-family: "Jost", serif, sans-serif;
     font-size:15px;
     margin-bottom: 10px;
     padding: 0px;
@@ -92,7 +92,7 @@ main {
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px;
-    font-family: "Ubuntu", "serif", "sans-serif";
+    font-family: "Ubuntu", serif, sans-serif;
     color: var(--yellow);
     background-color: var(--dblue);
 }
@@ -105,7 +105,7 @@ main {
     margin-bottom: 20px;
     padding: 30px;
     border: 2px solid var(--lblue);
-    font-family: "Jost", "serif", "sans-serif";
+    font-family: "Jost", serif, sans-serif;
 }
 
 /* wrap img to allow proper proportion change while maintaining resolution */
@@ -167,7 +167,7 @@ main a:active {
     padding-top: 5px;
     padding-bottom: 5px;
     border: 2px solid var(--lblue);
-    font-family: "Jost", "serif", "sans-serif";
+    font-family: "Jost", serif, sans-serif;
 }
 
 .contact h2 {
@@ -214,7 +214,7 @@ main a:active {
     padding-top: 15px;
     padding-bottom: 15px;
     border: 2px solid var(--lblue);
-    font-family: "Jost", "serif", "sans-serif";
+    font-family: "Jost", serif, sans-serif;
 }
 
 .projects h2{
@@ -301,10 +301,10 @@ main a:active {
     }
 
     .about h2 {
-        flex: 0 0 100%
+        flex: 0 0 100%;
     }
 
     .p-wrapper {
-        flex: 0 0 100%
+        flex: 0 0 100%;
     }
 }
