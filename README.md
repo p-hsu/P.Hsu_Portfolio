@@ -28,9 +28,9 @@ This portfolio contains HTML and CSS built from scratch to display the progressi
 
 *Note: this page contains some links that have yield not results*
 
-![Portfolio screenshot: full page](./assets/images/full-page-screenshot.png)
+![Portfolio screenshot: full page](./Assets/images/full-page-screenshot.png)
 
-![Portfolio screenshot: `@media screen and (max-width: 900px)`](./assets/images/mediaquery-screenshot.png)
+![Portfolio screenshot: `@media screen and (max-width: 900px)`](./Assets/images/mediaquery-screenshot.png)
 
 ## Deployment
 

@@ -198,7 +198,7 @@ main a:active {
 }
 
 .contact a:active {
-    color: var(--yellow);
+    color: var(--blue);
 }
 
 /* this container will have two items for flex-box */
